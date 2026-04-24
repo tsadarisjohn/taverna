@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-el="Μενού – Ταβέρνα Ο Γιάννης" data-en="Menu – Taverna O Giannis">Μενού – Ταβέρνα Ο Γιάννης</title>
+  <meta name="description" content="Το μενού της Ταβέρνας Ο Γιάννης – Ορεκτικά, σαλάτες, κρεατικά, ποτά.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="page-wrapper">
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" role="navigation">
+    <div class="nav-inner">
+      <img src="images/logo.png" alt="Ταβέρνα Ο Γιάννης" class="nav-logo">
+
+      <ul class="nav-links" role="list">
+        <li><a href="index.html"   data-el="Αρχική"      data-en="Home">Αρχική</a></li>
+        <li><a href="menu.html"    data-el="Μενού"        data-en="Menu">Μενού</a></li>
+        <li><a href="about.html"   data-el="Σχετικά"      data-en="About">Σχετικά</a></li>
+        <li><a href="gallery.html" data-el="Γκαλερί"      data-en="Gallery">Γκαλερί</a></li>
+        <li><a href="contact.html" data-el="Επικοινωνία"  data-en="Contact">Επικοινωνία</a></li>
+      </ul>
+
+      <div class="nav-social">
+        <!-- TODO: replace # with your Instagram URL -->
+        <a href="#" class="nav-social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <!-- TODO: replace # with your Facebook URL -->
+        <a href="https://www.facebook.com/share/14MGweKyJEo/?mibextid=wwXIfr" class="nav-social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="lang-toggle" id="lang-toggle" aria-label="Toggle language">EN</button>
+        <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-nav">
+    <a href="index.html"   data-el="Αρχική"      data-en="Home">Αρχική</a>
+    <a href="menu.html"    data-el="Μενού"        data-en="Menu">Μενού</a>
+    <a href="about.html"   data-el="Σχετικά"      data-en="About">Σχετικά</a>
+    <a href="gallery.html" data-el="Γκαλερί"      data-en="Gallery">Γκαλερί</a>
+    <a href="contact.html" data-el="Επικοινωνία"  data-en="Contact">Επικοινωνία</a>
+  </div>
+
+  <main>
+
+    <!-- ===== PAGE HERO ===== -->
+    <header class="page-hero menu-page-hero">
+      <div class="page-hero-content">
+        <p class="page-hero-eyebrow"
+           data-el="ΤΑΒΕΡΝΑ Ο ΓΙΑΝΝΗΣ · ΑΠΟ ΤΟ 1992"
+           data-en="TAVERNA O GIANNIS · SINCE 1992">ΤΑΒΕΡΝΑ Ο ΓΙΑΝΝΗΣ · ΑΠΟ ΤΟ 1992</p>
+        <h1 class="page-hero-title"
+            data-el="Το Μενού μας"
+            data-en="Our Menu">Το Μενού μας</h1>
+        <div class="page-hero-divider"></div>
+        <p class="page-hero-sub"
+           data-el="Παραδοσιακές γεύσεις, φτιαγμένες με αγάπη"
+           data-en="Traditional flavours, made with love">
+          Παραδοσιακές γεύσεις, φτιαγμένες με αγάπη
+        </p>
+      </div>
+    </header>
+
+    <!-- ===== MENU CONTENT ===== -->
+    <div class="menu-content">
+
+      <!-- ───────────────────────────────────────
+           ΟΡΕΚΤΙΚΑ / STARTERS
+      ─────────────────────────────────────────── -->
+      <section class="menu-cat-section animate-on-scroll">
+        <div class="mcat-header">
+          <div class="mcat-line"></div>
+          <div class="mcat-titles">
+            <span class="mcat-gr" data-el="Ορεκτικά" data-en="Starters">Ορεκτικά</span>
+          </div>
+          <div class="mcat-line"></div>
+        </div>
+        <div class="menu-list">
+
+          <div class="mli"><div class="mli-row"><span class="mli-gr" data-el="Φέτα" data-en="Feta">Φέτα</span><span class="mli-price">4.50 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-gr" data-el="Φέτα ψητή" data-en="Grilled Feta">Φέτα ψητή</span><span class="mli-price">6.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-gr" data-el="Φέτα με φύλλο, μέλι &amp; σουσάμι" data-en="Feta with phyllo, honey &amp; sesame">Φέτα με φύλλο, μέλι &amp; σουσάμι</span><span class="mli-price">7.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-gr" data-el="Τζατζίκι" data-en="Tzatziki">Τζατζίκι</span><span class="mli-price">4.50 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-gr" data-el="Τυροκαυτερή" data-en="Spicy Cheese Dip">Τυροκαυτερή</span><span class="mli-price">6.50 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-gr" data-el="Τυρόπιτα" data-en="Cheese Pie">Τυρόπιτα</span><span class="mli-price">6.80 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-gr" data-el="Σπανακόπιτα" data-en="Spinach Pie">Σπανακόπιτα</span><span class="mli-price">6.80 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-gr" data-el="Κολοκυθοκεφτέδες" data-en="Zucchini Fritters">Κολοκυθοκεφτέδες</span><span class="mli-price">6.80 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-gr" data-el="Πατάτες τηγανιτές" data-en="French Fries">Πατάτες τηγανιτές</span><span class="mli-price">4.50 €</span></div></div>
+
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────
+           ΣΑΛΑΤΕΣ / SALADS
+      ─────────────────────────────────────────── -->
+      <section class="menu-cat-section animate-on-scroll">
+        <div class="mcat-header">
+          <div class="mcat-line"></div>
+          <div class="mcat-titles">
+            <span class="mcat-gr" data-el="Σαλάτες" data-en="Salads">Σαλάτες</span>
+          </div>
+          <div class="mcat-line"></div>
+        </div>
+        <div class="menu-list menu-list--single">
+
+          <div class="mli"><div class="mli-row"><span class="mli-gr" data-el="Χόρτα" data-en="Wild Greens">Χόρτα</span><span class="mli-price">6.80 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-gr" data-el="Χωριάτικη" data-en="Greek Salad">Χωριάτικη</span><span class="mli-price">9.50 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-gr" data-el="Παντζάρια" data-en="Beetroot Salad">Παντζάρια</span><span class="mli-price">6.80 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-gr" data-el="Ντομάτα" data-en="Tomato Salad">Ντομάτα</span><span class="mli-price">6.80 €</span></div></div>
+
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────
+           ΚΡΕΑΤΙΚΑ / MEATS
+      ─────────────────────────────────────────── -->
+      <section class="menu-cat-section animate-on-scroll">
+        <div class="mcat-header">
+          <div class="mcat-line"></div>
+          <div class="mcat-titles">
+            <span class="mcat-gr" data-el="Κρεατικά" data-en="Meats &amp; Grills">Κρεατικά</span>
+          </div>
+          <div class="mcat-line"></div>
+        </div>
+        <div class="menu-list">
+
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Αρνί μπούτι" data-en="Leg of Lamb">Αρνί μπούτι</span><span class="mli-unit">(κιλό)</span></span><span class="mli-price">30.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Αρνί Παϊδάκι" data-en="Lamb Chops">Αρνί Παϊδάκι</span><span class="mli-unit">(κιλό)</span></span><span class="mli-price">40.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Πρόβατο Μπούτι φιλέτο" data-en="Mutton Leg Fillet">Πρόβατο Μπούτι φιλέτο</span><span class="mli-unit">(κιλό)</span></span><span class="mli-price">33.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Πρόβατο Παϊδάκι" data-en="Mutton Chops">Πρόβατο Παϊδάκι</span><span class="mli-unit">(κιλό)</span></span><span class="mli-price">28.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Μπιφτέκι Μοσχαρίσιο" data-en="Beef Patty">Μπιφτέκι Μοσχαρίσιο</span><span class="mli-unit">(μερίδα)</span></span><span class="mli-price">13.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Χοιρινή Μπριζόλα Γίγας" data-en="Pork Chop">Χοιρινή Μπριζόλα Γίγας</span><span class="mli-unit">(μερίδα)</span></span><span class="mli-price">15.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Χοιρινό Φιλέτο – Ψαρονέφρι" data-en="Pork Tenderloin">Χοιρινό Φιλέτο – Ψαρονέφρι</span><span class="mli-unit">(μερίδα)</span></span><span class="mli-price">13.50 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Κοτόπουλο Φιλέτο" data-en="Chicken Fillet">Κοτόπουλο Φιλέτο</span><span class="mli-unit">(μερίδα)</span></span><span class="mli-price">13.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Λουκάνικο" data-en="Sausage">Λουκάνικο</span><span class="mli-unit">(τεμάχιο)</span></span><span class="mli-price">8.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Συκώτι" data-en="Liver">Συκώτι</span><span class="mli-unit">(τεμάχιο)</span></span><span class="mli-price">10.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="T-BONE Μοσχαρίσιο" data-en="T-Bone Steak">T-BONE Μοσχαρίσιο</span><span class="mli-unit">(κιλό)</span></span><span class="mli-price">42.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Σπαλομπριζόλα TOMAHAWK" data-en="Tomahawk Steak">Σπαλομπριζόλα TOMAHAWK</span><span class="mli-unit">(≈1 κιλό)</span></span><span class="mli-price">44.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="RIB EYE Μοσχαρίσιο" data-en="Rib Eye">RIB EYE Μοσχαρίσιο</span><span class="mli-unit">(μερίδα)</span></span><span class="mli-price">32.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Γάλακτος Μοσχαρίσια" data-en="Milk-fed Veal">Γάλακτος Μοσχαρίσια</span><span class="mli-unit">(μερίδα)</span></span><span class="mli-price">19.00 €</span></div></div>
+
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────
+           ΑΝΑΨΥΚΤΙΚΑ / SOFT DRINKS
+      ─────────────────────────────────────────── -->
+      <section class="menu-cat-section animate-on-scroll">
+        <div class="mcat-header">
+          <div class="mcat-line"></div>
+          <div class="mcat-titles">
+            <span class="mcat-gr" data-el="Αναψυκτικά" data-en="Soft Drinks">Αναψυκτικά</span>
+          </div>
+          <div class="mcat-line"></div>
+        </div>
+        <div class="menu-list">
+
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr">Coca Cola</span><span class="mli-unit">250ml</span></span><span class="mli-price">2.40 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr">Coca Cola Zero</span><span class="mli-unit">330ml</span></span><span class="mli-price">2.60 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr">Sprite</span><span class="mli-unit">250ml</span></span><span class="mli-price">2.40 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Πορτοκαλάδα" data-en="Orange Soda">Πορτοκαλάδα</span><span class="mli-unit">250ml</span></span><span class="mli-price">2.40 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Σόδα" data-en="Soda Water">Σόδα</span><span class="mli-unit">250ml</span></span><span class="mli-price">1.50 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Ανθρακούχο Νερό" data-en="Sparkling Water">Ανθρακούχο Νερό</span><span class="mli-unit">250ml</span></span><span class="mli-price">3.00 €</span></div></div>
+          <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Ανθρακούχο Νερό" data-en="Sparkling Water">Ανθρακούχο Νερό</span><span class="mli-unit">1lt</span></span><span class="mli-price">5.00 €</span></div></div>
+
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────
+           ΠΟΤΑ / DRINKS
+      ─────────────────────────────────────────── -->
+      <section class="menu-cat-section animate-on-scroll">
+        <div class="mcat-header">
+          <div class="mcat-line"></div>
+          <div class="mcat-titles">
+            <span class="mcat-gr" data-el="Ποτά" data-en="Wine, Beer &amp; Spirits">Ποτά</span>
+          </div>
+          <div class="mcat-line"></div>
+        </div>
+        <div class="drinks-two-col">
+
+          <!-- Left: Beers & Spirits -->
+          <div>
+            <div class="mli">
+              <div class="mli-row"><span class="mli-gr" data-el="Μπύρες" data-en="Beers">Μπύρες</span><span class="mli-price">4.50 €</span></div>
+              <span class="mli-desc">KAIZER · CARLSBERG · ΝΗΣΟΣ · FIX · ΜΥΘΟΣ · ΕΖΑ · ΜΑΜΟΣ</span>
+            </div>
+            <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="FIX Άνευ" data-en="FIX Non-Alcoholic">FIX Άνευ</span><span class="mli-unit">330ml</span></span><span class="mli-price">3.50 €</span></div></div>
+            <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Τσίπουρο Ηδωνικό" data-en="Tsipouro Idoniko">Τσίπουρο Ηδωνικό</span><span class="mli-unit">50ml</span></span><span class="mli-price">3.50 €</span></div></div>
+            <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Τσίπουρο Ηδωνικό" data-en="Tsipouro Idoniko">Τσίπουρο Ηδωνικό</span><span class="mli-unit">200ml</span></span><span class="mli-price">10.00 €</span></div></div>
+          </div>
+
+          <!-- Right: Wines -->
+          <div>
+            <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Κρασί Λευκό χύμα" data-en="House White Wine">Κρασί Λευκό χύμα</span><span class="mli-unit">(λίτρο)</span></span><span class="mli-price">7.00 €</span></div></div>
+            <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Κρασί Κόκκινο χύμα" data-en="House Red Wine">Κρασί Κόκκινο χύμα</span><span class="mli-unit">(λίτρο)</span></span><span class="mli-price">8.50 €</span></div></div>
+            <div class="mli"><div class="mli-row"><span class="mli-left"><span class="mli-gr" data-el="Κρασί Ημίγλυκο" data-en="Semi-Sweet Wine">Κρασί Ημίγλυκο</span><span class="mli-unit">(λίτρο)</span></span><span class="mli-price">12.00 €</span></div></div>
+          </div>
+
+        </div>
+      </section>
+
+    </div><!-- end .menu-content -->
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3 data-el="ΤΑΒΕΡΝΑ Ο ΓΙΑΝΝΗΣ" data-en="TAVERNA O GIANNIS">ΤΑΒΕΡΝΑ Ο ΓΙΑΝΝΗΣ</h3>
+          <p data-el="Από το 1992, σερβίρουμε παραδοσιακές ελληνικές γεύσεις με αγάπη και φροντίδα στην καρδιά των Αφιδνών."
+             data-en="Since 1992, serving traditional Greek flavours with love and care in the heart of Afidnes.">
+            Από το 1992, σερβίρουμε παραδοσιακές ελληνικές γεύσεις με αγάπη και φροντίδα στην καρδιά των Αφιδνών.
+          </p>
+          <!-- Social Links -->
+          <div class="footer-social">
+            <!-- TODO: replace # with your Instagram URL -->
+            <a href="#" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <!-- TODO: replace # with your Facebook URL -->
+            <a href="https://www.facebook.com/share/14MGweKyJEo/?mibextid=wwXIfr" class="social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://www.tripadvisor.com.gr/Restaurant_Review-g11906701-d7133382-Reviews-Taverna_O_Yiannis-Afidnes_East_Attica_Region_Attica.html" class="social-link" aria-label="TripAdvisor" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="13" r="4.5"/><circle cx="16.5" cy="13" r="4.5"/><circle cx="7.5" cy="13" r="1.8" fill="currentColor" stroke="none"/><circle cx="16.5" cy="13" r="1.8" fill="currentColor" stroke="none"/><path d="M2 9C5 4 10 3 12 3C14 3 19 4 22 9"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-el="Σελίδες" data-en="Pages">Σελίδες</h4>
+          <ul>
+            <li><a href="index.html"   data-el="Αρχική"     data-en="Home">Αρχική</a></li>
+            <li><a href="menu.html"    data-el="Μενού"       data-en="Menu">Μενού</a></li>
+            <li><a href="about.html"   data-el="Σχετικά"     data-en="About">Σχετικά</a></li>
+            <li><a href="gallery.html" data-el="Γκαλερί"     data-en="Gallery">Γκαλερί</a></li>
+            <li><a href="contact.html" data-el="Επικοινωνία" data-en="Contact">Επικοινωνία</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-el="Επικοινωνία" data-en="Contact">Επικοινωνία</h4>
+          <ul>
+            <li><span data-el="Ζωοδόχου Πηγής 5" data-en="5 Zoodochou Pigis St.">Ζωοδόχου Πηγής 5</span></li>
+            <li><span data-el="Αφίδναι, Αττική" data-en="Afidnes, Attica">Αφίδναι, Αττική</span></li>
+            <li><a href="tel:+302295022745" class="footer-phone">22950 22745</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span data-el="© 2025 Ταβέρνα Ο Γιάννης. Όλα τα δικαιώματα διατηρούνται."
+              data-en="© 2025 Taverna O Giannis. All rights reserved.">
+          © 2025 Ταβέρνα Ο Γιάννης. Όλα τα δικαιώματα διατηρούνται.
+        </span>
+        <span data-el="Με αγάπη από το 1992" data-en="With love since 1992">Με αγάπη από το 1992</span>
+      </div>
+    </div>
+  </footer>
+
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
